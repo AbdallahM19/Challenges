@@ -1,4 +1,3 @@
-#!/bin/bash/python3
 def check_even_odd(i):
 	return "Even" if i % 2 == 0 else "Odd"
 
