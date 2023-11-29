@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 const char* even_or_odd(int number)
 {
@@ -10,8 +9,9 @@ const char* even_or_odd(int number)
 }
 
 int main() {
-    int number = 7;
-
-    printf("%d is %s\n", number, even_or_odd(number));
-    return (0);
+	int number = 7;
+	printf("%d is %s\n", number, even_or_odd(number));
+	number = 4;
+	printf("%d is %s\n", number, even_or_odd(number));
+	return (0);
 }
