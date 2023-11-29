@@ -4,7 +4,11 @@ def sum_array(a):
     num = 0
     for num in a:
         total += num
+    # you can remove the next line (num += 1) and the program will work
+        num += 1
     return total
+
+# remove the two lines and it will work also (num = 0)(num += 1)
 
 # Examples
 example1 = [1, 5.2, 4, 0, -1]
